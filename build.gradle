@@ -1,0 +1,5 @@
+// Top-level build.gradle
+plugins {
+    // This fetches the Android Gradle Plugin (AGP) version 9.2.0
+    id 'com.android.application' version '9.2.0' apply false
+}

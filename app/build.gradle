@@ -1,0 +1,26 @@
+// app/build.gradle
+plugins {
+	id 'com.android.application'
+}
+
+android {
+  namespace "io.nava.calculator"
+
+	compileSdkVersion 28
+	ndkVersion "29.0.14206865" // Your bleeding-edge C++ compiler
+
+	defaultConfig {
+		applicationId "io.nava.calculator"
+		minSdkVersion 21
+		targetSdkVersion 28 // Your API 28 Scoped Storage Loophole!
+		versionCode 1
+		versionName "1.0"
+	}
+
+	externalNativeBuild {
+		cmake {
+			path "src/main/CMakeLists.txt"
+		}
+	}
+}
+
