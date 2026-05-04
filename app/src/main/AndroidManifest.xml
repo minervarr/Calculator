@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="io.nava.calculator">
-	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	<application android:requestLegacyExternalStorage="true">
-		<activity android:name=".MainActivity">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<application>
+    <activity android:name="android.app.NativeActivity">
+      <meta-data
+        android:name="android.app.lib_name"
+        android:value="calculator" />
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />

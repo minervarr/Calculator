@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/.cxx/Debug/6v1z3u6u/armeabi-v7a",
+  "command": "C:\\PPProgam\\android_sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=C:/PPProgam/android_sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dcalculator_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\calculator.dir\\cpp\\calculator.cc.o -c C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\src\\main\\cpp\\calculator.cc",
+  "file": "C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\src\\main\\cpp\\calculator.cc"
+}
+]

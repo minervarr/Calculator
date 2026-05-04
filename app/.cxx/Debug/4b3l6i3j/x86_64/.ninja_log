@@ -1,0 +1,7 @@
+# ninja log v5
+18	337	7995770436520999	CMakeFiles/calculator.dir/C_/PPProgam/android_sdk/ndk/29.0.14206865/sources/android/native_app_glue/android_native_app_glue.c.o	fcac4312bb93c303
+1	1551	7995770448703461	CMakeFiles/calculator.dir/cpp/calculator.cc.o	17f5c4d061097b8
+9	2000	7995770453262741	CMakeFiles/calculator.dir/cpp/app.cc.o	ee631653da8c6c5
+2001	2201	7995770455249004	C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/build/intermediates/cxx/Debug/4b3l6i3j/obj/x86_64/libcalculator.so	22bffeb18991da6
+8	1352	7995778000695494	CMakeFiles/calculator.dir/cpp/calculator.cc.o	17f5c4d061097b8
+1353	1528	7995778002430585	C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/build/intermediates/cxx/Debug/4b3l6i3j/obj/x86_64/libcalculator.so	22bffeb18991da6

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\PPProgam\\android_sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\.cxx\\Debug\\6v1z3u6u\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\PPProgam\\android_sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\.cxx\\Debug\\6v1z3u6u\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "calculator::@6890427a1f51a3e7e1df": {
+      "artifactName": "calculator",
+      "abi": "x86",
+      "output": "C:\\Users\\incxiuefb\\Documents\\Files\\android_handmade\\calculator\\app\\build\\intermediates\\cxx\\Debug\\6v1z3u6u\\obj\\x86\\libcalculator.so",
+      "runtimeFiles": []
+    }
+  }
+}
