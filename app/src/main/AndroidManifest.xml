@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-	<application>
-    <activity android:name="android.app.NativeActivity">
-      <meta-data
-        android:name="android.app.lib_name"
-        android:value="calculator" />
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
-	</application>
+
+    <uses-feature android:name="android.hardware.vulkan.version"
+                  android:version="0x00400000"
+                  android:required="true" />
+    <uses-feature android:name="android.hardware.vulkan.compute"
+      android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name="android.app.NativeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="calculator" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>

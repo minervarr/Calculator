@@ -1,26 +1,53 @@
 // app/build.gradle
 plugins {
-	id 'com.android.application'
+  id 'com.android.application'
 }
 
 android {
-  namespace "io.nava.calculator"
+    namespace "io.nava.calculator"
 
-	compileSdkVersion 37
-	ndkVersion "29.0.14206865" // Your bleeding-edge C++ compiler
+    lint {
+        disable 'ExpiredTargetSdkVersion'
+    }
 
-	defaultConfig {
-		applicationId "io.nava.calculator"
-		minSdkVersion 24
-		targetSdkVersion 28 // Your API 28 Scoped Storage Loophole!
-		versionCode 1
-		versionName "1.0"
-	}
+    compileSdkVersion 37
+    ndkVersion "29.0.14206865"
 
-	externalNativeBuild {
-		cmake {
-			path "src/main/CMakeLists.txt"
-		}
-	}
+    defaultConfig {
+        applicationId "io.nava.calculator"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../bruno.jks")
+            storePassword "Tetas//2004//"
+            keyAlias "brunoKey"
+            keyPassword "Tetas//2004//"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/CMakeLists.txt"
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include "arm64-v8a", "x86_64"
+            universalApk false
+        }
+    }
 }
-

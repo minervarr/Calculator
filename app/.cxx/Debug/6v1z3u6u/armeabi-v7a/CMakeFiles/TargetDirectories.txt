@@ -1,3 +1,0 @@
-C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/.cxx/Debug/6v1z3u6u/armeabi-v7a/CMakeFiles/calculator.dir
-C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/.cxx/Debug/6v1z3u6u/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/incxiuefb/Documents/Files/android_handmade/calculator/app/.cxx/Debug/6v1z3u6u/armeabi-v7a/CMakeFiles/rebuild_cache.dir
