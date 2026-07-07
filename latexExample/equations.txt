@@ -1,0 +1,8 @@
+\frac{1}{x \left( \log(2) + \log(5) \right)}
+\frac{d}{dx} \left( \sqrt{8x} \right) = \frac{\sqrt{2}}{\sqrt{x}}
+\sqrt{a^2 + b^2}
+E = mc^2
+\sqrt[3]{x}
+\sqrt[3]{27}
+\sqrt[3]{x^2 + y^2}
+\sqrt[3]{\frac{a}{b}}

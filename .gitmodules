@@ -1,0 +1,6 @@
+[submodule "libs/vulkan_canvas_engine"]
+	path = libs/vulkan_canvas_engine
+	url = https://github.com/minervarr/vulkan_canvas_engine
+[submodule "libs/archive_engine"]
+	path = libs/archive_engine
+	url = https://github.com/minervarr/archive_engine

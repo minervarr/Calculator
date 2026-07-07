@@ -10,8 +10,10 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application>
-        <activity android:name="android.app.NativeActivity">
+    <application android:label="Calculator">
+        <activity android:name="io.nava.calculator.MainActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="calculator" />
